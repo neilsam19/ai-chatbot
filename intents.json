@@ -1,0 +1,361 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "greetings",
+        "what's up",
+        "how's it going?",
+        "how is it going"
+      ],
+      "responses": ["Hello!", "Hey", "What can I do for you?"],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Have a Good day",
+        "bye",
+        "Ciao",
+        "See ya!"
+      ],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+      "context_set": ""
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "What is progamming?",
+        "What is coding?",
+        "Tell me about programming",
+        "Tell me about coding",
+        "What is software development?"
+      ],
+      "responses": [
+        "Programming, coding or software development, means writing computer code to automate tasks."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "how",
+      "patterns": [
+        "How are you?",
+        "How is your day?",
+        "How do you feel?",
+        "Are you good?"
+      ],
+      "responses": ["I am fine, thanks for asking!", "I feel great!"],
+      "context_set": ""
+    },
+    {
+      "tag": "flask",
+      "patterns": [
+        "What is Flask?",
+        "Do you know about Flask?",
+        "Can you tell me something about Flask?",
+        "Explain Flask to me!"
+      ],
+      "responses": [
+        "Flask is a Python web development framework, which is very simple and minimalistic."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "chess",
+      "patterns": [
+        "What is chess?",
+        "Do you know anything about chess?",
+        "Is chess interesting?",
+        "Tell me about chess.",
+        "How do I start learning chess?"
+      ],
+      "responses": [
+        "Chess is a strategic board game between two players.",
+        "Chess is fascinating because it combines strategy, tactics, and planning.",
+        "To start learning chess, familiarize yourself with the basic moves and rules!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cricket",
+      "patterns": [
+        "What is cricket?",
+        "How do you play cricket?",
+        "Tell me about cricket.",
+        "Is cricket a popular sport?",
+        "Can you explain cricket to me?"
+      ],
+      "responses": [
+        "Cricket is a bat-and-ball game popular in many countries.",
+        "Cricket involves two teams aiming to score more runs than the other.",
+        "Cricket is especially popular in countries like India, England, and Australia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "stocks",
+      "patterns": [
+        "What are stocks?",
+        "How do stocks work?",
+        "Is investing in stocks risky?",
+        "Can you explain the stock market?",
+        "What does it mean to buy stocks?"
+      ],
+      "responses": [
+        "Stocks represent ownership in a company.",
+        "Investing in stocks involves buying shares to earn returns as companies grow.",
+        "Stocks can be risky, but with research and planning, they can yield good returns."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "nutrition",
+      "patterns": [
+        "What is nutrition?",
+        "Tell me about healthy eating.",
+        "How do I eat a balanced diet?",
+        "Why is nutrition important?",
+        "Can you help with meal planning?"
+      ],
+      "responses": [
+        "Nutrition is essential for good health and energy.",
+        "A balanced diet includes proteins, carbs, fats, vitamins, and minerals.",
+        "Good nutrition helps you maintain energy, immunity, and overall well-being."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What is the weather today?",
+        "How do weather forecasts work?",
+        "Will it rain today?",
+        "Is the weather going to be hot?",
+        "What is the temperature right now?"
+      ],
+      "responses": [
+        "Weather can change quickly; forecasts provide a general outlook.",
+        "Weather forecasts are based on atmospheric data and models.",
+        "It's always a good idea to check a weather app for up-to-date information!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animals",
+      "patterns": [
+        "What are animals?",
+        "Tell me about mammals.",
+        "Do you know any facts about animals?",
+        "What is the most intelligent animal?",
+        "Why do animals live in groups?"
+      ],
+      "responses": [
+        "Animals are diverse living organisms found worldwide.",
+        "Mammals are warm-blooded animals that usually have fur and produce milk.",
+        "Animals have fascinating adaptations to survive in various environments."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "computer_science",
+      "patterns": [
+        "What is computer science?",
+        "Tell me about programming.",
+        "How do computers work?",
+        "What is coding?",
+        "Is computer science important?"
+      ],
+      "responses": [
+        "Computer science studies the principles and use of computers.",
+        "Coding is writing instructions for computers to follow.",
+        "Computer science drives innovation in many fields, from AI to web development."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "finance",
+      "patterns": [
+        "What is finance?",
+        "How do finances work?",
+        "Tell me about financial planning.",
+        "Can you explain budgeting?",
+        "What does finance cover?"
+      ],
+      "responses": [
+        "Finance is about managing money and investments.",
+        "Budgeting is an essential tool for tracking income and expenses.",
+        "Financial planning helps individuals and companies manage resources effectively."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "physics",
+      "patterns": [
+        "What is physics?",
+        "Can you explain gravity?",
+        "Tell me about energy.",
+        "How does motion work?",
+        "Is physics a hard subject?"
+      ],
+      "responses": [
+        "Physics studies the fundamental laws of nature.",
+        "Gravity is a force that attracts objects toward each other.",
+        "Physics is challenging but helps explain the world around us."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "history",
+      "patterns": [
+        "What is history?",
+        "Tell me about world history.",
+        "How do historians study history?",
+        "Why is history important?",
+        "Can you explain a historical event?"
+      ],
+      "responses": [
+        "History is the study of past events and their impact on the present.",
+        "Historians use sources like documents, artifacts, and oral accounts.",
+        "Understanding history helps us learn from the past."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "What is technology?",
+        "How has technology changed our lives?",
+        "Tell me about modern technology.",
+        "Is technology helpful or harmful?",
+        "What are some recent tech trends?"
+      ],
+      "responses": [
+        "Technology involves using tools and innovations to solve problems.",
+        "Modern technology connects people and makes tasks easier.",
+        "Technology has both positive and negative impacts on society."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "health",
+      "patterns": [
+        "What is health?",
+        "Tell me about mental health.",
+        "Why is physical health important?",
+        "Can you explain wellness?",
+        "How can I stay healthy?"
+      ],
+      "responses": [
+        "Health is the state of being physically, mentally, and socially well.",
+        "Physical activity, nutrition, and rest contribute to good health.",
+        "Mental health is equally important and involves managing stress."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "space",
+      "patterns": [
+        "What is space?",
+        "Tell me about the universe.",
+        "How big is the universe?",
+        "Is there life on other planets?",
+        "What is the solar system?"
+      ],
+      "responses": [
+        "Space is a vast area beyond Earth's atmosphere.",
+        "The universe is incredibly large, containing billions of galaxies.",
+        "The solar system includes the Sun and its orbiting planets."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "What is music?",
+        "Tell me about different music genres.",
+        "How does music affect emotions?",
+        "Can you explain classical music?",
+        "What is pop music?"
+      ],
+      "responses": [
+        "Music is an art form that uses sound to express emotions and ideas.",
+        "Different genres include classical, pop, jazz, and rock.",
+        "Music can evoke emotions, from joy to nostalgia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "What are sports?",
+        "Tell me about popular sports.",
+        "How do people benefit from sports?",
+        "Can you explain team sports?",
+        "What is individual sports?"
+      ],
+      "responses": [
+        "Sports are physical activities with rules that often involve competition.",
+        "Team sports like soccer build teamwork, while individual sports test self-reliance.",
+        "Sports help improve fitness and discipline."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "literature",
+      "patterns": [
+        "What is literature?",
+        "Tell me about famous books.",
+        "How does literature impact society?",
+        "Can you explain genres in literature?",
+        "What is the importance of reading?"
+      ],
+      "responses": [
+        "Literature includes written works that reflect ideas and cultures.",
+        "Genres include fiction, non-fiction, poetry, and drama.",
+        "Reading literature broadens perspectives and inspires thought."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mathematics",
+      "patterns": [
+        "What is mathematics?",
+        "Tell me about algebra.",
+        "How does math apply to everyday life?",
+        "Can you explain calculus?",
+        "Why is math important?"
+      ],
+      "responses": [
+        "Mathematics is the study of numbers, shapes, and patterns.",
+        "Algebra involves solving equations and manipulating symbols.",
+        "Math is essential for understanding the world and problem-solving."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "chemistry",
+      "patterns": [
+        "What is chemistry?",
+        "Tell me about atoms and molecules.",
+        "How does chemistry relate to everyday life?",
+        "Can you explain chemical reactions?",
+        "Why is chemistry important?"
+      ],
+      "responses": [
+        "Chemistry studies substances and their interactions.",
+        "Atoms and molecules make up all matter.",
+        "Chemistry explains many daily processes, from cooking to cleaning."
+      ],
+      "context_set": ""
+    }
+  ]
+}
