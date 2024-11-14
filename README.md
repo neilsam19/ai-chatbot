@@ -10,6 +10,8 @@ Run chatbot.py and keep entering queries.
 
 Needs to have more training data and intents. Model training parameters can be experiemented with as well.
 
+Another future plan is to integrate this chatbot in a Streamlit-like application.
+
 Feel free to add or modify the intents in intents.json as well as the parameters to train the model in training.py.
 
 ### Acknowledgements
